@@ -52,7 +52,9 @@ dependencies:
   mime: ^1.0.0
   path: ^1.8.0
   perfetto_ui_compiled:
-    path: ../../third_party/packages/perfetto_ui_compiled
+    git:
+      url: git@github.com:flutter/devtools.git
+      path: third_party/packages/perfetto_ui_compiled
   pointer_interceptor: ^0.9.3+3
   provider: ^6.0.2
   # Only used for debug mode logic.
